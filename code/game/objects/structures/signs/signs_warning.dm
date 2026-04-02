@@ -185,6 +185,16 @@
 	icon_state = "incident"
 	is_editable = TRUE
 
+/obj/structure/sign/notice
+	name = "\improper NOTICE sign"
+	sign_change_name = "Notice"
+	desc = "A sign that seemingly wants you to notice it. Unfortunately, it's finer text is illegible."
+	icon_state = "notice"
+	is_editable = TRUE
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/notice, 27)
+
+
 ////MISC LOCATIONS
 
 /obj/structure/sign/warning/pods
