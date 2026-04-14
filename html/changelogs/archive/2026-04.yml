@@ -80,3 +80,6 @@
   - rscadd: Added Scatter Laser, Pulse Slugs, Incendiary Slugs, Ion Shells to cargo
   - rscadd: Added Dragonsbreath to black market
   - rscdel: Removed all tech shell recipes
+2026-04-13:
+  generalthrax:
+  - rscdel: Removed mentors
