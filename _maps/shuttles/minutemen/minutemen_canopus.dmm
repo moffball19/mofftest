@@ -30,7 +30,7 @@
 /area/space)
 "ar" = (
 /obj/structure/sign/warning/incident{
-	pixel_y = 30
+	pixel_y = 32
 	},
 /obj/effect/turf_decal/corner/opaque/mauve/border{
 	dir = 8
@@ -53,7 +53,7 @@
 	},
 /obj/structure/sign/warning/securearea{
 	pixel_x = -26;
-	pixel_y = 4
+	pixel_y = 12
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
@@ -68,6 +68,13 @@
 	pixel_x = 15;
 	density = 0
 	},
+/obj/item/clipboard,
+/obj/item/folder,
+/obj/item/pen,
+/obj/item/pen/fountain{
+	pixel_y = -4
+	},
+/obj/item/storage/wallet/random,
 /turf/open/floor/wood/walnut,
 /area/space)
 "az" = (
@@ -210,8 +217,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/corner/transparent/blue/border,
-/obj/structure/sign/warning/incident{
-	pixel_y = 30
+/obj/structure/sign/notice/directional/north{
+	desc = "A notice sign which reads 'NO ALCOHOL DURING WORK HOURS'.";
+	name = "Bar Notice Sign"
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
 	pixel_y = 15;
@@ -354,6 +362,15 @@
 /obj/item/gun/energy/sharplite/volt/empty_cell,
 /obj/item/gun/ballistic/automatic/pistol/cm23/no_mag,
 /turf/open/floor/plasteel/tech,
+/area/space)
+"cE" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "c_cabin2window"
+	},
+/turf/open/floor/plating,
 /area/space)
 "db" = (
 /obj/structure/table,
@@ -538,7 +555,7 @@
 	},
 /obj/structure/sign/warning/securearea{
 	pixel_x = -26;
-	pixel_y = 4
+	pixel_y = 12
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
@@ -717,8 +734,21 @@
 	pixel_y = 6;
 	pixel_x = -6
 	},
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/directional/east{
+	pixel_y = 5
+	},
 /obj/machinery/newscaster/directional/north,
+/obj/machinery/button/door{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = -11;
+	id = "c_cabin2window";
+	name = "Cabin Window Control"
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 6;
+	pixel_y = 8
+	},
 /turf/open/floor/wood/walnut,
 /area/space)
 "fR" = (
@@ -971,7 +1001,7 @@
 /obj/effect/turf_decal/trimline/transparent/blue/line{
 	dir = 9
 	},
-/obj/item/radio/intercom/directional/north,
+/obj/structure/noticeboard/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "hG" = (
@@ -1440,9 +1470,7 @@
 /obj/item/stock_parts/cell/high{
 	pixel_x = 7
 	},
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 24
-	},
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
@@ -1480,14 +1508,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/corner/transparent/blue/border,
-/obj/structure/sign/notice/directional/north{
-	desc = "A notice sign which reads 'NO ALCOHOL DURING WORK HOURS'.";
-	name = "Bar Notice Sign"
-	},
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
 	pixel_y = 8;
 	pixel_x = 8
 	},
+/obj/item/radio/intercom/directional/east,
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
 "kV" = (
@@ -1976,7 +2002,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/obj/structure/closet/crate/freezer,
+/obj/structure/chair,
 /turf/open/floor/plasteel/white,
 /area/space)
 "oP" = (
@@ -2055,6 +2081,12 @@
 	pixel_x = 15;
 	density = 0
 	},
+/obj/item/clipboard,
+/obj/item/folder,
+/obj/item/pen/fountain{
+	pixel_y = -4
+	},
+/obj/item/seeds/cannabis,
 /turf/open/floor/wood/walnut,
 /area/space)
 "pe" = (
@@ -2384,7 +2416,8 @@
 	icon_state = "0-2"
 	},
 /obj/structure/sign/warning/radiation{
-	pixel_x = -32
+	pixel_x = -23;
+	pixel_y = 8
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -3535,8 +3568,8 @@
 /area/space)
 "zW" = (
 /obj/structure/sign/warning/electricshock{
-	pixel_x = -32;
-	pixel_y = 5
+	pixel_x = -24;
+	pixel_y = 10
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
@@ -3969,7 +4002,7 @@
 	},
 /obj/structure/sign/warning/securearea{
 	pixel_x = -26;
-	pixel_y = 4
+	pixel_y = 12
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
@@ -4300,10 +4333,7 @@
 /turf/open/floor/plasteel/patterned/brushed,
 /area/space)
 "FH" = (
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = -24;
-	dir = 1
-	},
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/south,
 /turf/open/floor/carpet/blue,
 /area/space)
 "FL" = (
@@ -4607,10 +4637,7 @@
 /obj/item/reagent_containers/food/drinks/soda_cans/tonic,
 /obj/item/reagent_containers/food/drinks/soda_cans/tonic,
 /obj/item/reagent_containers/food/drinks/soda_cans/tonic,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 24;
-	layer = 2.9
-	},
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
 "HH" = (
@@ -5095,9 +5122,7 @@
 /area/space)
 "KZ" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 24
-	},
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
 /obj/item/radio/intercom/directional/east,
 /obj/item/dyespray,
 /obj/item/lipstick/random,
@@ -5392,6 +5417,13 @@
 	pixel_x = 15;
 	density = 0
 	},
+/obj/item/clipboard,
+/obj/item/folder,
+/obj/item/pen,
+/obj/item/pen/fountain{
+	pixel_y = -4
+	},
+/obj/item/spacecash/bundle/c1,
 /turf/open/floor/wood/walnut,
 /area/space)
 "NL" = (
@@ -5409,14 +5441,16 @@
 /obj/item/radio/intercom/wideband/table{
 	dir = 4;
 	pixel_x = 5;
-	pixel_y = 3
+	pixel_y = 6
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
 "NO" = (
 /obj/structure/table/wood,
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/directional/east{
+	pixel_y = 5
+	},
 /obj/machinery/newscaster/directional/north,
 /obj/item/paper{
 	pixel_y = 4;
@@ -5424,6 +5458,13 @@
 	},
 /obj/item/pen{
 	pixel_y = 2
+	},
+/obj/machinery/button/door{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = -11;
+	id = "c_cabin3window";
+	name = "Cabin Window Control"
 	},
 /turf/open/floor/wood/walnut,
 /area/space)
@@ -5901,9 +5942,6 @@
 /turf/open/floor/wood/walnut,
 /area/space)
 "PZ" = (
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 24
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#543C30";
 	dir = 1
@@ -5956,14 +5994,13 @@
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "QD" = (
-/obj/effect/turf_decal/siding/black{
-	dir = 10
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "c_cabin3window"
 	},
-/obj/effect/turf_decal/trimline/transparent/blue/line{
-	dir = 10
-	},
-/obj/structure/noticeboard/directional/west,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/space)
 "QE" = (
 /obj/effect/turf_decal/corner/transparent/blue/diagonal,
@@ -6050,6 +6087,15 @@
 "RC" = (
 /obj/item/reagent_containers/food/drinks/bottle/orangejuice,
 /turf/open/space/basic,
+/area/space)
+"RI" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "c_cabin1window"
+	},
+/turf/open/floor/plating,
 /area/space)
 "RN" = (
 /obj/effect/turf_decal/trimline/transparent/green/filled/warning{
@@ -6420,13 +6466,6 @@
 	id = "canopus_furnace";
 	name = "Furnace Shutters Control";
 	pixel_x = -5
-	},
-/obj/machinery/mineral/processing_unit_console{
-	dir = 1;
-	machinedir = 10;
-	pixel_y = -20;
-	dist = 2;
-	pixel_x = 13
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
@@ -6879,12 +6918,21 @@
 /area/space)
 "Yk" = (
 /obj/structure/table/wood,
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/directional/east{
+	pixel_y = 5
+	},
 /obj/item/reagent_containers/glass/maunamug{
 	pixel_x = -6;
 	pixel_y = 1
 	},
 /obj/machinery/newscaster/directional/north,
+/obj/machinery/button/door{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = -11;
+	id = "c_cabin1window";
+	name = "Cabin Window Control"
+	},
 /turf/open/floor/wood/walnut,
 /area/space)
 "Yl" = (
@@ -6926,8 +6974,8 @@
 /area/space)
 "YE" = (
 /obj/structure/sign/warning/fire{
-	pixel_x = -32;
-	pixel_y = 2
+	pixel_x = -24;
+	pixel_y = 8
 	},
 /obj/effect/turf_decal/industrial/warning/green{
 	dir = 1
@@ -10704,7 +10752,7 @@ vY
 bs
 yN
 sL
-QD
+At
 pp
 qB
 PG
@@ -11939,7 +11987,7 @@ fQ
 vt
 vY
 vY
-Id
+QD
 vY
 KR
 KR
@@ -12038,7 +12086,7 @@ Yk
 vt
 vY
 vY
-Id
+cE
 vY
 vY
 Ce
@@ -12137,7 +12185,7 @@ KR
 DI
 vY
 vY
-Id
+RI
 vY
 vY
 Ce
