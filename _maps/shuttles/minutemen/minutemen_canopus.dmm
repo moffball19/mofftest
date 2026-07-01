@@ -826,15 +826,18 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "gz" = (
-/obj/effect/turf_decal/siding/black{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/black/corner,
 /obj/item/kirbyplants{
 	icon_state = "plant-12";
 	pixel_x = 8;
 	pixel_y = 20
 	},
+/obj/effect/turf_decal/trimline/transparent/lime/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/black/corner,
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "gD" = (
@@ -910,7 +913,7 @@
 /turf/open/floor/plasteel/tech,
 /area/space)
 "hr" = (
-/obj/effect/turf_decal/trimline/opaque/blue/filled/line{
+/obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/industrial/warning/green{
@@ -2028,10 +2031,17 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/corner/transparent/blue/border,
-/obj/item/radio/intercom/directional/north,
 /obj/item/clothing/accessory/barcoat{
 	pixel_x = 8;
 	pixel_y = -2
+	},
+/obj/item/clothing/suit/apron{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/machinery/smartfridge/drinks{
+	layer = 2.7;
+	pixel_y = 26
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
@@ -2353,6 +2363,9 @@
 	pixel_x = 6;
 	pixel_y = 4
 	},
+/obj/effect/turf_decal/trimline/transparent/lime/line{
+	dir = 1
+	},
 /obj/effect/turf_decal/siding/black/end{
 	dir = 4
 	},
@@ -2602,7 +2615,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "ti" = (
-/obj/effect/turf_decal/trimline/opaque/blue/filled/line{
+/obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -6352,6 +6365,9 @@
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "TR" = (
+/obj/effect/turf_decal/trimline/transparent/lime/warning{
+	dir = 1
+	},
 /obj/effect/turf_decal/siding/black{
 	dir = 8
 	},
@@ -6841,6 +6857,7 @@
 /obj/item/storage/cans/sixbeer,
 /obj/item/storage/cans/sixbeer,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/item/radio/intercom/directional/north,
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
 "XZ" = (
@@ -6942,7 +6959,7 @@
 /turf/open/space/basic,
 /area/space)
 "Zl" = (
-/obj/effect/turf_decal/trimline/opaque/blue/filled/line{
+/obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/industrial/warning/green{
@@ -8250,7 +8267,7 @@ PQ
 vY
 vY
 vY
-KR
+RN
 vY
 vY
 KR
@@ -8349,7 +8366,7 @@ gX
 DY
 yv
 qx
-KR
+jy
 TR
 GH
 Zy
