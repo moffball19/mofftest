@@ -3695,7 +3695,7 @@
 /area/space)
 "yW" = (
 /obj/structure/closet/secure_closet/engineering_chief{
-	name = "\proper foreman's equipment locker";
+	name = "\proper foreman's personal locker";
 	populate = 0;
 	anchored = 1
 	},
