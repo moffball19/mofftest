@@ -173,10 +173,22 @@
 	pixel_y = -10
 	},
 /obj/structure/sign/warning/fire{
-	pixel_x = -21;
-	pixel_y = 2
+	pixel_x = -23;
+	pixel_y = 10
 	},
 /turf/open/floor/plasteel/dark,
+/area/space)
+"aV" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 1;
+	layer = 2.030
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
 /area/space)
 "aW" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -258,6 +270,10 @@
 "bI" = (
 /obj/effect/turf_decal/corner/transparent/blue/full,
 /turf/open/floor/plasteel/dark,
+/area/space)
+"bM" = (
+/obj/effect/turf_decal/industrial/warning/green,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "bU" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -986,6 +1002,7 @@
 /obj/effect/turf_decal/trimline/transparent/mauve/line{
 	dir = 1
 	},
+/obj/structure/noticeboard/directional/north,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "hD" = (
@@ -1010,6 +1027,22 @@
 	},
 /obj/effect/turf_decal/corner/transparent/blue/full,
 /turf/open/floor/plasteel/dark,
+/area/space)
+"hP" = (
+/obj/structure/salvageable/autolathe,
+/obj/effect/turf_decal/box/white{
+	color = "#B7D993"
+	},
+/obj/structure/sign/warning/nosmoking/burnt{
+	pixel_y = 32;
+	pixel_x = 9
+	},
+/obj/structure/sign/warning/smoking/circle{
+	pixel_y = 32;
+	pixel_x = -4
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/tech/grid,
 /area/space)
 "hR" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
@@ -1323,7 +1356,6 @@
 /turf/open/floor/plasteel/tech,
 /area/space)
 "jE" = (
-/obj/structure/noticeboard/directional/east,
 /obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
 	dir = 4
 	},
@@ -1350,6 +1382,54 @@
 	},
 /obj/machinery/light/floor,
 /turf/open/floor/engine/hull/reinforced,
+/area/space)
+"jR" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/machinery/light/small/directional/west,
+/obj/item/paper/crumpled/muddy{
+	pixel_y = 8
+	},
+/obj/item/paper/crumpled/muddy{
+	pixel_y = 8;
+	pixel_x = 10
+	},
+/obj/item/paper/crumpled/muddy,
+/obj/item/paper/crumpled/muddy{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/obj/item/paper/crumpled/muddy{
+	pixel_x = -8;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"jT" = (
+/obj/machinery/button/door{
+	pixel_x = 10;
+	pixel_y = -20;
+	id = "c_garageshutters";
+	name = "Workshop Shutters Control";
+	req_one_access = list(10,48);
+	dir = 1
+	},
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 2;
+	layer = 2.030
+	},
+/obj/effect/turf_decal/industrial/warning/green/corner,
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 5;
+	layer = 2.030
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/space)
 "jU" = (
 /obj/effect/turf_decal/trimline/transparent/green/filled/warning{
@@ -1470,13 +1550,26 @@
 /obj/item/stock_parts/cell/high{
 	pixel_x = 7
 	},
-/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
-/obj/item/radio/intercom/directional/east,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "kF" = (
 /obj/effect/landmark/start/shaft_miner,
 /turf/open/space/basic,
+/area/space)
+"kH" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/glass,
+/obj/item/shard{
+	icon_state = "medium";
+	pixel_y = 15
+	},
+/obj/item/shard{
+	pixel_y = 6;
+	pixel_x = 8
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "kI" = (
 /obj/structure/table,
@@ -1526,6 +1619,22 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
+"lc" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 10;
+	layer = 2.030
+	},
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 1;
+	layer = 2.030
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/space)
 "lf" = (
 /obj/effect/turf_decal/corner/opaque/white/half,
 /obj/effect/turf_decal/corner/opaque/white/half{
@@ -1563,6 +1672,17 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /obj/effect/turf_decal/trimline/transparent/blue/corner,
 /turf/open/floor/plasteel/dark,
+/area/space)
+"lE" = (
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993";
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993"
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech/grid,
 /area/space)
 "lI" = (
 /obj/effect/turf_decal/trimline/transparent/blue/line{
@@ -1970,6 +2090,14 @@
 /obj/effect/turf_decal/trimline/transparent/mauve/line{
 	dir = 1
 	},
+/obj/item/paper{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/obj/item/pen{
+	pixel_x = 10;
+	pixel_y = 6
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "oz" = (
@@ -2005,6 +2133,14 @@
 /obj/structure/chair,
 /turf/open/floor/plasteel/white,
 /area/space)
+"oO" = (
+/obj/structure/table/wood,
+/obj/structure/mirror{
+	pixel_y = -28;
+	pixel_x = -15
+	},
+/turf/open/floor/wood/walnut,
+/area/space)
 "oP" = (
 /obj/machinery/autolathe,
 /obj/effect/turf_decal/box/white{
@@ -2021,6 +2157,12 @@
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/tech/grid,
+/area/space)
+"oT" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "oU" = (
 /obj/structure/table/reinforced,
@@ -2260,7 +2402,7 @@
 /turf/open/floor/plasteel/mono/white,
 /area/space)
 "qo" = (
-/obj/structure/chair/office{
+/obj/structure/chair/office/dark{
 	dir = 4
 	},
 /obj/effect/turf_decal/corner/transparent/blue/full,
@@ -2716,6 +2858,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/space)
+"tE" = (
+/obj/structure/closet/secure_closet/captains{
+	populate = 0;
+	anchored = 1
+	},
+/turf/open/floor/wood/walnut,
+/area/space)
 "tH" = (
 /obj/effect/turf_decal/industrial/warning/green{
 	dir = 4
@@ -3028,6 +3177,13 @@
 /obj/item/stack/sheet/mineral/uranium/twenty,
 /turf/open/floor/plasteel/tech,
 /area/space)
+"vx" = (
+/obj/effect/turf_decal/industrial/warning/green,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
 "vD" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/bio_suit/bard{
@@ -3116,6 +3272,15 @@
 /obj/item/reagent_containers/food/drinks/bottle/pineapplejuice,
 /turf/open/space/basic,
 /area/space)
+"wv" = (
+/obj/structure/bed/double{
+	dir = 1
+	},
+/obj/item/bedsheet/double/blue{
+	dir = 1
+	},
+/turf/open/floor/wood/walnut,
+/area/space)
 "wy" = (
 /obj/item/taperecorder/empty,
 /turf/open/space/basic,
@@ -3170,6 +3335,13 @@
 /obj/item/mecha_parts/mecha_equipment/drill{
 	pixel_y = -6
 	},
+/obj/machinery/button/door{
+	pixel_x = 10;
+	pixel_y = 20;
+	id = "c_garageshutters";
+	name = "Workshop Shutters Control";
+	req_one_access = list(10,48)
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "wM" = (
@@ -3201,11 +3373,14 @@
 	},
 /obj/item/reagent_containers/glass/rag{
 	pixel_y = 8;
-	pixel_x = -5
+	pixel_x = -6
 	},
-/obj/item/reagent_containers/spray/cleaner{
-	pixel_y = 4;
-	pixel_x = 8
+/obj/item/lipstick/purple{
+	pixel_x = 7
+	},
+/obj/item/clothing/head/headband/darkblue{
+	pixel_y = -4;
+	pixel_x = -4
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
@@ -3440,6 +3615,36 @@
 /obj/machinery/power/smes/engineering,
 /turf/open/floor/plating,
 /area/space)
+"yH" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/obj/item/radio/intercom/directional/south,
+/obj/item/cigbutt{
+	pixel_x = 12
+	},
+/obj/item/cigbutt{
+	pixel_x = -11;
+	pixel_y = 1
+	},
+/obj/machinery/light/small/directional/west,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_y = 15;
+	pixel_x = -2
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"yI" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 5;
+	layer = 2.030
+	},
+/obj/structure/chair/sofa/red/old/left/directional/south,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/space)
 "yJ" = (
 /obj/machinery/atmospherics/pipe/simple/dark/hidden/layer5{
 	dir = 4
@@ -3452,7 +3657,7 @@
 /turf/open/floor/plating,
 /area/space)
 "yN" = (
-/obj/structure/chair{
+/obj/structure/chair/stool/bar{
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -3487,6 +3692,14 @@
 	},
 /obj/item/clothing/under/rank/medical/gown/blue,
 /turf/open/floor/plasteel/mono/white,
+/area/space)
+"yW" = (
+/obj/structure/closet/secure_closet/engineering_chief{
+	name = "\proper foreman's equipment locker";
+	populate = 0;
+	anchored = 1
+	},
+/turf/open/floor/wood/walnut,
 /area/space)
 "ze" = (
 /obj/structure/chair/office{
@@ -3797,6 +4010,14 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
+"BS" = (
+/obj/effect/turf_decal/industrial/warning/green/fulltile,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "c_garageshutters"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
 "BT" = (
 /obj/effect/turf_decal/siding/black/corner{
 	dir = 1
@@ -4050,6 +4271,11 @@
 /obj/effect/landmark/start/chief_engineer,
 /turf/open/space/basic,
 /area/space)
+"DQ" = (
+/obj/effect/turf_decal/industrial/hatch/blue,
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
 "DV" = (
 /obj/effect/turf_decal/corner/opaque/white/half,
 /obj/effect/turf_decal/corner/opaque/white/half{
@@ -4123,7 +4349,7 @@
 /turf/open/floor/plasteel/mono/white,
 /area/space)
 "EE" = (
-/obj/structure/chair/office{
+/obj/structure/chair/office/dark{
 	dir = 8
 	},
 /obj/effect/turf_decal/corner/transparent/blue/full,
@@ -4209,6 +4435,18 @@
 "Fi" = (
 /obj/item/reagent_containers/food/drinks/bottle/triplesec,
 /turf/open/space/basic,
+/area/space)
+"Fl" = (
+/obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/black{
+	dir = 1
+	},
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "Fq" = (
 /obj/structure/railing,
@@ -4464,10 +4702,6 @@
 /turf/open/floor/plasteel/tech,
 /area/space)
 "GB" = (
-/obj/structure/mirror{
-	pixel_y = 2;
-	pixel_x = 24
-	},
 /obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
 	dir = 4
 	},
@@ -4570,17 +4804,13 @@
 /obj/effect/turf_decal/trimline/transparent/mauve/line{
 	dir = 1
 	},
-/obj/item/paper_bin{
-	pixel_x = -6;
-	pixel_y = 4
+/obj/item/reagent_containers/food/drinks/waterbottle/empty{
+	pixel_x = -8;
+	pixel_y = 6
 	},
-/obj/item/pen{
-	pixel_y = 4;
-	pixel_x = -6
-	},
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_y = 4;
-	pixel_x = 7
+/obj/item/plate/small{
+	pixel_x = 6;
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
@@ -4757,6 +4987,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/tech/grid,
+/area/space)
+"IC" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/chair/sofa/red/old/right/directional/south,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "II" = (
 /obj/item/reagent_containers/food/drinks/ale,
@@ -5090,6 +5327,15 @@
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/space)
+"KG" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
 "KM" = (
 /obj/effect/turf_decal/trimline/transparent/mauve/filled/line,
 /obj/effect/turf_decal/siding/black,
@@ -5122,8 +5368,6 @@
 /area/space)
 "KZ" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
-/obj/item/radio/intercom/directional/east,
 /obj/item/dyespray,
 /obj/item/lipstick/random,
 /obj/item/lipstick/random,
@@ -5132,6 +5376,9 @@
 	},
 /obj/effect/turf_decal/siding/black/end{
 	dir = 1
+	},
+/obj/structure/mirror{
+	pixel_y = 28
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
@@ -5199,6 +5446,13 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"LE" = (
+/obj/effect/turf_decal/industrial/warning/green,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
 /area/space)
 "LJ" = (
@@ -5344,16 +5598,11 @@
 /turf/open/floor/plasteel/tech,
 /area/space)
 "Nl" = (
-/obj/structure/chair{
-	dir = 1
+/obj/structure/filingcabinet/double{
+	pixel_y = 25;
+	density = 0
 	},
-/obj/effect/turf_decal/trimline/transparent/mauve/filled/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/black{
-	dir = 1
-	},
-/turf/open/floor/plasteel/patterned/grid/dark,
+/turf/open/floor/wood/walnut,
 /area/space)
 "No" = (
 /obj/effect/turf_decal/industrial/warning/green/cee,
@@ -6408,6 +6657,7 @@
 /obj/structure/closet/crate/bin,
 /obj/effect/turf_decal/trimline/transparent/mauve/filled/end,
 /obj/effect/turf_decal/siding/black/end,
+/obj/item/paper/crumpled,
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "TR" = (
@@ -6421,6 +6671,25 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
+/area/space)
+"TV" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/item/radio/intercom/directional/south,
+/obj/item/storage/fancy/cigarettes/cigpack_uplift{
+	pixel_x = 8
+	},
+/obj/item/cigbutt{
+	pixel_x = -10;
+	pixel_y = 4
+	},
+/obj/machinery/computer/security/telescreen/entertainment/beige{
+	dir = 1;
+	pixel_x = -15;
+	pixel_y = -6;
+	layer = 2.9
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "TW" = (
 /obj/effect/turf_decal/siding/black{
@@ -6460,12 +6729,9 @@
 	pixel_y = -6;
 	pixel_x = -13
 	},
-/obj/machinery/button/door{
-	dir = 1;
-	pixel_y = -20;
-	id = "canopus_furnace";
-	name = "Furnace Shutters Control";
-	pixel_x = -5
+/obj/machinery/computer/processing_unit_console/directional/south{
+	machinedir = 10;
+	dist = 2
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
@@ -6621,6 +6887,16 @@
 /obj/effect/turf_decal/corner/opaque/mauve/border,
 /turf/open/floor/plasteel/tech,
 /area/space)
+"Vr" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/structure/sign/poster/contraband/lusty_xenomorph{
+	pixel_y = 32;
+	layer = 2.9
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
 "Vx" = (
 /obj/item/plant_analyzer,
 /turf/open/space/basic,
@@ -6741,6 +7017,17 @@
 	},
 /obj/structure/ore_box,
 /turf/open/floor/pod/light,
+/area/space)
+"WY" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_y = -20;
+	id = "canopus_furnace";
+	name = "Furnace Shutters Control";
+	pixel_x = -15
+	},
+/turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "Xc" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
@@ -7986,9 +8273,9 @@ KR
 KR
 KR
 vY
-CL
-CL
-CL
+jR
+IC
+yH
 vY
 hs
 vZ
@@ -8088,9 +8375,9 @@ KR
 KR
 KR
 vY
-CL
-CL
-CL
+lc
+yI
+TV
 vY
 vY
 vY
@@ -8190,9 +8477,9 @@ KR
 KR
 KR
 vY
-CL
-CL
-CL
+Vr
+oT
+jT
 vY
 wH
 Nc
@@ -8292,10 +8579,10 @@ KR
 KR
 KR
 vY
-CL
-CL
-CL
-vY
+UQ
+aV
+LE
+BS
 wE
 NV
 mN
@@ -8394,10 +8681,10 @@ KR
 KR
 KR
 vY
-CL
-CL
-CL
-vY
+lE
+KG
+bM
+BS
 Qr
 JF
 YS
@@ -8496,10 +8783,10 @@ KR
 KR
 KR
 vY
-CL
-CL
-CL
-vY
+hP
+kH
+vx
+BS
 tO
 VC
 tK
@@ -8599,8 +8886,8 @@ KR
 KR
 vY
 vY
-CL
-CL
+DQ
+OD
 vY
 LJ
 sw
@@ -9016,7 +9303,7 @@ ti
 nf
 Id
 Hz
-ge
+Fl
 RP
 KM
 Cv
@@ -9118,7 +9405,7 @@ ti
 nf
 Id
 op
-Nl
+ge
 RP
 KM
 ZZ
@@ -9220,7 +9507,7 @@ ti
 nf
 Id
 wY
-ge
+Fl
 RP
 KM
 ZZ
@@ -9829,7 +10116,7 @@ wl
 oL
 qM
 RP
-nf
+WY
 vY
 aT
 hR
@@ -11659,10 +11946,10 @@ KR
 KR
 KR
 vY
-KR
-KR
-KR
-KR
+yW
+wq
+wq
+wv
 vY
 hD
 FU
@@ -11761,10 +12048,10 @@ KR
 KR
 KR
 vY
-KR
-KR
-KR
-KR
+tE
+wq
+wq
+jF
 vY
 wA
 px
@@ -11863,10 +12150,10 @@ KR
 KR
 KR
 vY
-KR
-KR
-KR
-KR
+PT
+sD
+wq
+oO
 vY
 hD
 px
@@ -11967,8 +12254,8 @@ KR
 vY
 vY
 vY
-KR
-KR
+Nl
+UU
 vY
 GE
 aD
