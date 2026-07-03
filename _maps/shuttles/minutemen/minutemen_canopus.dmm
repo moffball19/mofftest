@@ -15,6 +15,9 @@
 	pixel_x = 10;
 	pixel_y = 1
 	},
+/obj/structure/sign/poster/clip/gold{
+	pixel_x = 32
+	},
 /turf/open/floor/plasteel/dark,
 /area/space)
 "ak" = (
@@ -86,6 +89,12 @@
 	},
 /obj/effect/turf_decal/industrial/warning/green{
 	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
@@ -296,6 +305,9 @@
 	name = "bathroom sink";
 	dir = 1
 	},
+/obj/structure/mirror{
+	pixel_y = -28
+	},
 /turf/open/floor/plasteel/white,
 /area/space)
 "cf" = (
@@ -395,9 +407,22 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "dc" = (
-/obj/structure/table/wood,
-/obj/machinery/newscaster/directional/south,
-/turf/open/floor/wood/walnut,
+/obj/effect/turf_decal/trimline/transparent/green/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/green/filled/warning{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
 /area/space)
 "df" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
@@ -471,6 +496,9 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
@@ -897,6 +925,9 @@
 	pixel_x = -3;
 	name = "bathroom sink";
 	dir = 1
+	},
+/obj/structure/mirror{
+	pixel_y = 28
 	},
 /turf/open/floor/plasteel/white,
 /area/space)
@@ -1455,10 +1486,67 @@
 /turf/open/floor/plating,
 /area/space)
 "kb" = (
-/obj/structure/closet/secure_closet,
+/obj/structure/closet{
+	anchored = 1;
+	name = "frigid weather closet"
+	},
 /obj/effect/turf_decal/corner/opaque/mauve/border{
 	dir = 8
 	},
+/obj/item/clothing/suit/hooded/parka/serene,
+/obj/item/clothing/suit/hooded/parka/serene,
+/obj/item/clothing/suit/hooded/parka/serene,
+/obj/item/clothing/suit/hooded/parka/serene,
+/obj/item/clothing/suit/hooded/parka/serene,
+/obj/item/clothing/suit/hooded/parka/serene,
+/obj/item/clothing/shoes/winterboots{
+	pixel_y = -8
+	},
+/obj/item/clothing/shoes/winterboots{
+	pixel_y = -8
+	},
+/obj/item/clothing/shoes/winterboots{
+	pixel_y = -8
+	},
+/obj/item/clothing/shoes/winterboots{
+	pixel_y = -8
+	},
+/obj/item/clothing/shoes/winterboots{
+	pixel_y = -8
+	},
+/obj/item/clothing/shoes/winterboots{
+	pixel_y = -8
+	},
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/gloves/color/black{
+	pixel_y = -8
+	},
+/obj/item/clothing/gloves/color/black{
+	pixel_y = -8
+	},
+/obj/item/clothing/gloves/color/black{
+	pixel_y = -8
+	},
+/obj/item/clothing/gloves/color/black{
+	pixel_y = -8
+	},
+/obj/item/clothing/gloves/color/black{
+	pixel_y = -8
+	},
+/obj/item/clothing/gloves/color/black{
+	pixel_y = -8
+	},
+/obj/item/clothing/glasses/safety,
+/obj/item/clothing/glasses/safety,
+/obj/item/clothing/glasses/safety,
+/obj/item/clothing/glasses/safety,
+/obj/item/clothing/glasses/safety,
+/obj/item/clothing/glasses/safety,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "kf" = (
@@ -1645,9 +1733,7 @@
 	pixel_y = 6;
 	pixel_x = 7
 	},
-/obj/structure/mirror{
-	pixel_y = 28
-	},
+/obj/structure/dresser/wall/directional/north,
 /turf/open/floor/plasteel/white,
 /area/space)
 "ln" = (
@@ -1745,6 +1831,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/trimline/transparent/blue/filled/corner,
+/obj/structure/chair/comfy/blue/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "me" = (
@@ -1778,6 +1865,10 @@
 /obj/machinery/porta_turret/ship/clip/light{
 	dir = 9;
 	id = "canopus_grid"
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_x = 26;
+	pixel_y = 12
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
@@ -1843,61 +1934,6 @@
 "mt" = (
 /obj/effect/turf_decal/box/white/corners{
 	color = "#CBB1CA"
-	},
-/obj/structure/closet/crate/hydroponics{
-	name = "tropical environment equipment crate"
-	},
-/obj/item/clothing/neck/mantle/navy{
-	pixel_x = -5
-	},
-/obj/item/clothing/neck/mantle/navy{
-	pixel_x = -5
-	},
-/obj/item/clothing/neck/mantle/navy{
-	pixel_x = -5
-	},
-/obj/item/clothing/head/clip/boonie{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/item/clothing/head/clip/boonie{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/item/clothing/head/clip/boonie{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/item/clothing/shoes/cowboy/black{
-	pixel_x = -6;
-	pixel_y = -7
-	},
-/obj/item/clothing/shoes/cowboy/black{
-	pixel_x = -6;
-	pixel_y = -7
-	},
-/obj/item/clothing/shoes/cowboy/black{
-	pixel_x = -6;
-	pixel_y = -7
-	},
-/obj/item/clothing/gloves/long/black{
-	pixel_y = -10;
-	pixel_x = 4
-	},
-/obj/item/clothing/gloves/long/black{
-	pixel_y = -10;
-	pixel_x = 4
-	},
-/obj/item/clothing/gloves/long/black{
-	pixel_y = -10;
-	pixel_x = 4
-	},
-/obj/item/storage/belt/sabre/kukri{
-	pixel_y = 4
-	},
-/obj/item/storage/belt/sabre/kukri,
-/obj/item/storage/belt/sabre/kukri{
-	pixel_y = -4
 	},
 /turf/open/floor/pod/light,
 /area/space)
@@ -2040,9 +2076,13 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "od" = (
-/obj/effect/spawner/bunk_bed,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/wood/walnut,
+/obj/structure/table,
+/obj/effect/turf_decal/corner/opaque/mauve/border,
+/obj/item/taperecorder/empty{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "oh" = (
 /obj/structure/sign/number/two{
@@ -2083,6 +2123,10 @@
 "oo" = (
 /obj/structure/table,
 /obj/effect/turf_decal/corner/opaque/mauve/border,
+/obj/item/folder/blue{
+	pixel_x = -6;
+	pixel_y = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/space)
 "op" = (
@@ -2135,9 +2179,12 @@
 /area/space)
 "oO" = (
 /obj/structure/table/wood,
-/obj/structure/mirror{
-	pixel_y = -28;
-	pixel_x = -15
+/obj/item/storage/box/ammo/c10mm{
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/item/trash/popcorn{
+	pixel_x = -2
 	},
 /turf/open/floor/wood/walnut,
 /area/space)
@@ -2284,16 +2331,15 @@
 /turf/open/floor/wood/walnut,
 /area/space)
 "pr" = (
-/obj/structure/table/wood,
-/obj/machinery/newscaster/directional/north,
-/obj/item/paper{
-	pixel_y = 4;
-	pixel_x = -4
+/obj/machinery/smartfridge/chemistry,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4;
+	color = "#CBB1CA"
 	},
-/obj/item/pen{
-	pixel_y = 2
+/obj/effect/turf_decal/box/white/corners{
+	color = "#CBB1CA"
 	},
-/turf/open/floor/wood/walnut,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "pv" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden/layer1{
@@ -2333,6 +2379,62 @@
 /obj/structure/rack,
 /obj/effect/turf_decal/corner/opaque/mauve/border{
 	dir = 8
+	},
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = -8
+	},
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = -8
+	},
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = -8
+	},
+/obj/item/clothing/suit/hazardvest{
+	pixel_x = -8
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/gas/clip{
+	pixel_x = 6
+	},
+/obj/item/clothing/mask/gas/clip{
+	pixel_x = 6
+	},
+/obj/item/clothing/mask/gas/clip{
+	pixel_x = 6
+	},
+/obj/item/clothing/mask/gas/clip{
+	pixel_x = 6
+	},
+/obj/item/clothing/mask/gas/sechailer{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/gas/sechailer{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/gas/sechailer{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/gas/sechailer{
+	pixel_x = 8;
+	pixel_y = 8
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
@@ -2564,13 +2666,22 @@
 /turf/open/floor/plating,
 /area/space)
 "rr" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin/bundlenatural{
-	pixel_y = 6;
-	pixel_x = -6
+/obj/structure/rack,
+/obj/effect/turf_decal/corner/opaque/mauve/border{
+	dir = 8
 	},
-/obj/machinery/newscaster/directional/north,
-/turf/open/floor/wood/walnut,
+/obj/item/storage/belt/sabre/kukri{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/storage/belt/sabre/kukri{
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/item/storage/belt/sabre/kukri{
+	pixel_x = -2
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "rC" = (
 /turf/open/floor/engine/hull,
@@ -2859,9 +2970,10 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "tE" = (
-/obj/structure/closet/secure_closet/captains{
-	populate = 0;
-	anchored = 1
+/obj/structure/table/wood,
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 10;
+	layer = 2.9
 	},
 /turf/open/floor/wood/walnut,
 /area/space)
@@ -2898,13 +3010,14 @@
 	id = "canopus_barwindow";
 	name = "Bar Shutters Control";
 	req_access_txt = "25";
-	pixel_x = -10
+	pixel_x = -12
 	},
 /obj/machinery/light_switch{
 	dir = 1;
 	pixel_x = 11;
 	pixel_y = -20
 	},
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/space)
 "tO" = (
@@ -3124,6 +3237,10 @@
 /obj/machinery/porta_turret/ship/clip/light{
 	dir = 10;
 	id = "canopus_grid"
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_x = 26;
+	pixel_y = 4
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
@@ -3694,10 +3811,13 @@
 /turf/open/floor/plasteel/mono/white,
 /area/space)
 "yW" = (
-/obj/structure/closet/secure_closet/engineering_chief{
-	name = "\proper foreman's personal locker";
-	populate = 0;
-	anchored = 1
+/obj/structure/dresser,
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/obj/item/storage/guncase/pistol/cm23{
+	pixel_y = 9;
+	mag_count = 3
 	},
 /turf/open/floor/wood/walnut,
 /area/space)
@@ -3799,11 +3919,20 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "Aa" = (
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/carpet/blue,
+/obj/structure/closet/secure_closet/wall/directional/east{
+	icon_door = "command_wall_door";
+	icon_state = "blue_wall";
+	req_access_txt = "56";
+	name = "foreman's personal locker"
+	},
+/turf/open/floor/wood/walnut,
 /area/space)
 "Ac" = (
-/obj/effect/turf_decal/box/white{
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993";
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white/corners{
 	color = "#B7D993"
 	},
 /obj/structure/table,
@@ -3996,11 +4125,13 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "BN" = (
-/obj/structure/chair/bench/beige/directional/west{
-	pixel_x = 4
+/obj/structure/filingcabinet/double{
+	dir = 8;
+	pixel_x = 10;
+	density = 0;
+	pixel_y = 0
 	},
-/obj/structure/dresser/wall/directional/south,
-/turf/open/floor/wood/walnut,
+/turf/open/floor/carpet/blue,
 /area/space)
 "BR" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -4282,9 +4413,7 @@
 	dir = 1
 	},
 /obj/structure/table/chem,
-/obj/structure/mirror{
-	pixel_y = -28
-	},
+/obj/structure/dresser/wall/directional/south,
 /turf/open/floor/plasteel/white,
 /area/space)
 "DY" = (
@@ -4356,74 +4485,29 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "ES" = (
-/obj/structure/closet/cabinet{
-	anchored = 1
+/obj/effect/turf_decal/siding/white{
+	dir = 10
 	},
-/obj/item/storage/briefcase{
-	pixel_y = -7
+/obj/structure/closet/wall/white/directional/south,
+/obj/item/storage/box/evidence{
+	pixel_x = 8
 	},
-/obj/item/storage/briefcase{
-	pixel_y = -7
+/obj/item/storage/box/evidence{
+	pixel_x = 8
 	},
-/obj/item/storage/backpack/duffelbag,
-/obj/item/storage/backpack/security/clip,
-/obj/item/storage/backpack/satchel/sec/clip,
-/obj/item/storage/backpack/messenger,
-/obj/item/clothing/under/clip/formal{
-	pixel_x = -4
+/obj/item/storage/box/evidence{
+	pixel_x = 8
 	},
-/obj/item/clothing/under/clip/formal{
-	pixel_x = -4
-	},
-/obj/item/clothing/under/clip/formal/alt{
-	pixel_x = 4
-	},
-/obj/item/clothing/under/clip/formal/alt{
-	pixel_x = 4
-	},
-/obj/item/clothing/under/clip,
-/obj/item/clothing/under/clip,
-/obj/item/clothing/accessory/clip_formal_overshirt,
-/obj/item/clothing/accessory/clip_formal_overshirt,
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_y = -13;
+/obj/item/storage/box/gloves{
 	pixel_x = -8
 	},
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_y = -13;
+/obj/item/storage/box/gloves{
 	pixel_x = -8
 	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_x = 8;
-	pixel_y = -7
+/obj/item/storage/box/gloves{
+	pixel_x = -8
 	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_x = 8;
-	pixel_y = -7
-	},
-/obj/item/clothing/gloves/color/black{
-	pixel_y = -10
-	},
-/obj/item/clothing/gloves/color/black{
-	pixel_y = -10
-	},
-/obj/item/clothing/head/soft/utility_navy{
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/soft/utility_navy{
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/flatcap/clip{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/flatcap/clip{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/turf/open/floor/wood/walnut,
+/turf/open/floor/plasteel/tech/techmaint,
 /area/space)
 "Fh" = (
 /obj/effect/turf_decal/box{
@@ -4479,18 +4563,6 @@
 /obj/structure/crate_shelf,
 /obj/structure/closet/crate/engineering{
 	name = "safety equipment crate"
-	},
-/obj/item/clothing/head/hardhat/dblue{
-	pixel_x = -5
-	},
-/obj/item/clothing/head/hardhat/dblue{
-	pixel_x = -5
-	},
-/obj/item/clothing/head/hardhat/dblue{
-	pixel_x = -5
-	},
-/obj/item/clothing/head/hardhat/dblue{
-	pixel_x = -5
 	},
 /obj/item/clothing/suit/hazardvest{
 	pixel_x = 5
@@ -5598,9 +5670,11 @@
 /turf/open/floor/plasteel/tech,
 /area/space)
 "Nl" = (
-/obj/structure/filingcabinet/double{
-	pixel_y = 25;
-	density = 0
+/obj/structure/closet/secure_closet/wall/directional/east{
+	icon_door = "command_wall_door";
+	icon_state = "blue_wall";
+	name = "captain's locker";
+	req_access_txt = "20"
 	},
 /turf/open/floor/wood/walnut,
 /area/space)
@@ -6024,16 +6098,70 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "Pu" = (
-/obj/structure/chair/bench/beige/directional/west{
+/obj/structure/closet{
+	anchored = 1;
+	name = "tropical weather closet"
+	},
+/obj/effect/turf_decal/corner/opaque/mauve/border{
+	dir = 8
+	},
+/obj/item/clothing/head/clip/boonie{
+	pixel_y = 8
+	},
+/obj/item/clothing/head/clip/boonie{
+	pixel_y = 8
+	},
+/obj/item/clothing/head/clip/boonie{
+	pixel_y = 8
+	},
+/obj/item/clothing/head/clip/boonie{
+	pixel_y = 8
+	},
+/obj/item/clothing/neck/mantle/navy{
+	pixel_y = -4
+	},
+/obj/item/clothing/neck/mantle/navy{
+	pixel_y = -4
+	},
+/obj/item/clothing/neck/mantle/navy{
+	pixel_y = -4
+	},
+/obj/item/clothing/neck/mantle/navy{
+	pixel_y = -4
+	},
+/obj/item/clothing/shoes/cowboy/black{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/obj/item/clothing/shoes/cowboy/black{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/obj/item/clothing/shoes/cowboy/black{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/obj/item/clothing/shoes/cowboy/black{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/obj/item/clothing/gloves/fingerless{
+	pixel_y = -10;
 	pixel_x = 4
 	},
-/obj/structure/sign/poster/clip/lunatown{
-	pixel_y = 32
+/obj/item/clothing/gloves/fingerless{
+	pixel_y = -10;
+	pixel_x = 4
 	},
-/obj/structure/dresser/wall/directional/east{
-	pixel_y = 4
+/obj/item/clothing/gloves/fingerless{
+	pixel_y = -10;
+	pixel_x = 4
 	},
-/turf/open/floor/wood/walnut,
+/obj/item/clothing/gloves/fingerless{
+	pixel_y = -10;
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "PC" = (
 /obj/structure/closet/secure_closet/wall/directional/south{
@@ -6269,8 +6397,13 @@
 /area/space)
 "QN" = (
 /obj/machinery/smartfridge/chemistry,
-/obj/effect/turf_decal/corner/opaque/mauve/border{
-	dir = 1
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1;
+	color = "#CBB1CA"
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8;
+	color = "#CBB1CA"
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
@@ -6316,9 +6449,15 @@
 /turf/open/floor/plating,
 /area/space)
 "Rw" = (
-/obj/effect/spawner/bunk_bed,
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/wood/walnut,
+/obj/machinery/power/smes/engineering,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
 /area/space)
 "Ry" = (
 /obj/effect/turf_decal/trimline/opaque/beige/filled/warning{
@@ -6750,76 +6889,14 @@
 /turf/open/floor/wood/walnut,
 /area/space)
 "Us" = (
-/obj/structure/closet/cabinet{
-	anchored = 1
+/obj/structure/table/wood,
+/obj/item/radio/intercom/directional/south,
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_y = 8;
+	pixel_x = 8
 	},
-/obj/item/storage/briefcase{
-	pixel_y = -7
-	},
-/obj/item/storage/briefcase{
-	pixel_y = -7
-	},
-/obj/item/storage/backpack/duffelbag,
-/obj/item/storage/backpack/security/clip,
-/obj/item/storage/backpack/satchel/sec/clip,
-/obj/item/storage/backpack/messenger,
-/obj/item/clothing/under/clip/formal{
-	pixel_x = -4
-	},
-/obj/item/clothing/under/clip/formal{
-	pixel_x = -4
-	},
-/obj/item/clothing/under/clip/formal/alt{
-	pixel_x = 4
-	},
-/obj/item/clothing/under/clip/formal/alt{
-	pixel_x = 4
-	},
-/obj/item/clothing/under/clip,
-/obj/item/clothing/under/clip,
-/obj/item/clothing/accessory/clip_formal_overshirt,
-/obj/item/clothing/accessory/clip_formal_overshirt,
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_y = -13;
-	pixel_x = -8
-	},
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_y = -13;
-	pixel_x = -8
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_x = 8;
-	pixel_y = -7
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_x = 8;
-	pixel_y = -7
-	},
-/obj/item/clothing/gloves/color/black{
-	pixel_y = -10
-	},
-/obj/item/clothing/gloves/color/black{
-	pixel_y = -10
-	},
-/obj/item/clothing/head/soft/utility_navy{
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/soft/utility_navy{
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/flatcap/clip{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/flatcap/clip{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/structure/sign/poster/clip/lanchester{
-	pixel_y = 32;
-	layer = 2.9
+/obj/item/food/cookie/sugar{
+	pixel_x = -6
 	},
 /turf/open/floor/wood/walnut,
 /area/space)
@@ -6944,6 +7021,7 @@
 "Wf" = (
 /obj/machinery/power/ship_gravity,
 /obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/space)
 "Wg" = (
@@ -6972,8 +7050,16 @@
 /turf/open/floor/plating,
 /area/space)
 "Wp" = (
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993";
+	dir = 1
+	},
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993";
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel/tech/grid,
 /area/space)
 "Wq" = (
 /obj/effect/turf_decal/siding/black{
@@ -7051,6 +7137,9 @@
 "Xh" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/plating,
 /area/space)
 "Xi" = (
@@ -7063,6 +7152,14 @@
 "Xo" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
+/area/space)
+"Xt" = (
+/obj/structure/table,
+/obj/effect/turf_decal/corner/transparent/blue/full,
+/obj/structure/sign/poster/clip/clover{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "XA" = (
 /obj/effect/turf_decal/box/white/corners{
@@ -7182,7 +7279,6 @@
 /obj/item/reagent_containers/food/drinks/beer,
 /obj/item/storage/cans/sixbeer,
 /obj/item/storage/cans/sixbeer,
-/obj/machinery/power/apc/auto_name/directional/east,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
@@ -7408,78 +7504,10 @@
 /turf/open/floor/plating,
 /area/space)
 "ZW" = (
-/obj/structure/closet/cabinet{
-	anchored = 1
-	},
-/obj/item/storage/briefcase{
-	pixel_y = -7
-	},
-/obj/item/storage/briefcase{
-	pixel_y = -7
-	},
-/obj/item/storage/backpack/duffelbag,
-/obj/item/storage/backpack/security/clip,
-/obj/item/storage/backpack/satchel/sec/clip,
-/obj/item/storage/backpack/messenger,
-/obj/item/clothing/under/clip/formal{
+/obj/structure/chair/bench/blue/directional/east{
 	pixel_x = -4
 	},
-/obj/item/clothing/under/clip/formal{
-	pixel_x = -4
-	},
-/obj/item/clothing/under/clip/formal/alt{
-	pixel_x = 4
-	},
-/obj/item/clothing/under/clip/formal/alt{
-	pixel_x = 4
-	},
-/obj/item/clothing/under/clip,
-/obj/item/clothing/under/clip,
-/obj/item/clothing/accessory/clip_formal_overshirt,
-/obj/item/clothing/accessory/clip_formal_overshirt,
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_y = -13;
-	pixel_x = -8
-	},
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_y = -13;
-	pixel_x = -8
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_x = 8;
-	pixel_y = -7
-	},
-/obj/item/clothing/shoes/jackboots{
-	pixel_x = 8;
-	pixel_y = -7
-	},
-/obj/item/clothing/gloves/color/black{
-	pixel_y = -10
-	},
-/obj/item/clothing/gloves/color/black{
-	pixel_y = -10
-	},
-/obj/item/clothing/head/soft/utility_navy{
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/soft/utility_navy{
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/flatcap/clip{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/flatcap/clip{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/structure/sign/poster/contraband/lusty_xenomorph{
-	pixel_y = 32;
-	layer = 2.9
-	},
-/turf/open/floor/wood/walnut,
+/turf/open/floor/carpet/blue,
 /area/space)
 "ZZ" = (
 /obj/structure/closet/secure_closet/miner{
@@ -8397,7 +8425,7 @@ vY
 vY
 vY
 vY
-Xh
+Rw
 Af
 DH
 vY
@@ -8494,8 +8522,8 @@ ZR
 Fx
 vY
 kb
-kb
-pL
+Pu
+rr
 pL
 vY
 Fr
@@ -8598,11 +8626,11 @@ vY
 dG
 HH
 HH
-PQ
+ES
 vY
 vY
 vY
-RN
+dc
 vY
 vY
 KR
@@ -8705,7 +8733,7 @@ jy
 TR
 GH
 Zy
-Ac
+Wp
 vY
 KR
 KR
@@ -8901,10 +8929,10 @@ Dg
 pY
 SA
 vY
-QN
+pr
 rc
 DG
-oo
+od
 vY
 ro
 Om
@@ -9107,7 +9135,7 @@ vY
 GO
 Yl
 pI
-Dd
+Xt
 db
 HX
 vY
@@ -11537,7 +11565,7 @@ KR
 KR
 KR
 KR
-vY
+Id
 kI
 zk
 mZ
@@ -11639,7 +11667,7 @@ KR
 KR
 KR
 KR
-vY
+Id
 Nz
 XQ
 ok
@@ -11947,7 +11975,7 @@ KR
 KR
 vY
 yW
-wq
+ZW
 wq
 wv
 vY
@@ -12051,7 +12079,7 @@ vY
 tE
 wq
 wq
-jF
+Us
 vY
 wA
 px
@@ -12150,10 +12178,10 @@ KR
 KR
 KR
 vY
-PT
-sD
-wq
 oO
+BN
+wq
+UU
 vY
 hD
 px
@@ -12255,7 +12283,7 @@ vY
 vY
 vY
 Nl
-UU
+Aa
 vY
 GE
 aD
@@ -12345,10 +12373,10 @@ KR
 KR
 KR
 KR
-KR
-KR
-KR
-KR
+UU
+wq
+wq
+PC
 KR
 KR
 KR
@@ -12447,10 +12475,10 @@ KR
 KR
 KR
 KR
-KR
-KR
-KR
-KR
+PT
+sD
+wq
+uT
 KR
 KR
 KR
@@ -12549,10 +12577,10 @@ KR
 KR
 KR
 KR
-KR
-KR
-KR
-KR
+vY
+vY
+UU
+Sx
 KR
 KR
 KR
@@ -12785,14 +12813,14 @@ KR
 KR
 KR
 KR
-pr
-wq
 KR
-rr
-wq
 KR
-wq
-dc
+KR
+KR
+KR
+KR
+KR
+KR
 KR
 "}
 (53,1,1) = {"
@@ -12858,10 +12886,6 @@ KR
 KR
 KR
 KR
-UU
-wq
-wq
-PC
 KR
 KR
 KR
@@ -12887,14 +12911,18 @@ KR
 KR
 KR
 KR
-od
-Aa
 KR
-od
-Aa
 KR
-Wp
-Rw
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
 KR
 "}
 (54,1,1) = {"
@@ -12960,10 +12988,6 @@ KR
 KR
 KR
 KR
-PT
-sD
-wq
-uT
 KR
 KR
 KR
@@ -12989,14 +13013,18 @@ KR
 KR
 KR
 KR
-Us
-BN
 KR
-ZW
-BN
 KR
-Pu
-ES
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
 KR
 "}
 (55,1,1) = {"
@@ -13062,10 +13090,10 @@ KR
 KR
 KR
 KR
-vY
-vY
-UU
-Sx
+KR
+KR
+KR
+KR
 KR
 KR
 KR
