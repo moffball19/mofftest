@@ -192,6 +192,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
@@ -279,6 +280,7 @@
 /area/space)
 "bM" = (
 /obj/effect/turf_decal/industrial/warning/green,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "bU" = (
@@ -1086,6 +1088,7 @@
 	pixel_x = -4
 	},
 /obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "hR" = (
@@ -1449,6 +1452,9 @@
 	pixel_y = -8
 	},
 /obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/energybar,
+/obj/item/plate_shard,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "jT" = (
@@ -1670,6 +1676,7 @@
 	pixel_y = 6;
 	pixel_x = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "kI" = (
@@ -1732,6 +1739,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
@@ -1781,6 +1789,7 @@
 	color = "#B7D993"
 	},
 /obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "lI" = (
@@ -2218,6 +2227,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "oU" = (
@@ -3059,6 +3069,19 @@
 "ut" = (
 /turf/open/floor/plasteel/tech/techmaint,
 /area/space)
+"uu" = (
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993";
+	dir = 1
+	},
+/obj/effect/turf_decal/box/white/corners{
+	color = "#B7D993";
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
 "uH" = (
 /obj/effect/turf_decal/industrial/warning/green{
 	dir = 6
@@ -3737,6 +3760,7 @@
 	pixel_y = 15;
 	pixel_x = -2
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "yI" = (
@@ -4221,6 +4245,11 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"CI" = (
+/obj/effect/turf_decal/industrial/hatch/blue,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
 "CJ" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 6
@@ -4404,6 +4433,7 @@
 "DQ" = (
 /obj/effect/turf_decal/industrial/hatch/blue,
 /obj/machinery/light/directional/east,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "DV" = (
@@ -5062,6 +5092,7 @@
 	dir = 8
 	},
 /obj/structure/chair/sofa/red/old/right/directional/south,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "II" = (
@@ -6817,6 +6848,7 @@
 	pixel_y = -6;
 	layer = 2.9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/space)
 "TW" = (
@@ -6960,6 +6992,15 @@
 /obj/structure/sign/poster/contraband/lusty_xenomorph{
 	pixel_y = 32;
 	layer = 2.9
+	},
+/obj/item/shard{
+	icon_state = "small";
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/effect/decal/cleanable/glass,
+/obj/item/trash/popcorn{
+	pixel_x = -2
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
@@ -8597,7 +8638,7 @@ KR
 KR
 KR
 vY
-UQ
+uu
 aV
 LE
 BS
@@ -8905,7 +8946,7 @@ KR
 vY
 vY
 DQ
-OD
+CI
 vY
 LJ
 sw
