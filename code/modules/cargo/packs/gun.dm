@@ -92,6 +92,7 @@
 	desc = "Contains a Candor pistol, the trusty sidearm of any spacer, produced by Hunter's Pride and chambered in .45 ACP."
 	cost = 1000
 	contains = list(/obj/item/storage/guncase/pistol/candor)
+	contains_factional = list(/obj/item/storage/guncase/pistol/candor/factory)
 	faction = /datum/faction/srm
 
 /datum/supply_pack/gun/asp
@@ -479,6 +480,7 @@
 	desc = "For when you need to deal with 2 drunkards the old-fashioned way. Contains a double-barreled shotgun, favored by Bartenders. Warranty voided if sawed off."
 	cost = 1000
 	contains = list(/obj/item/storage/guncase/doublebarrel)
+	contains_factional = list(/obj/item/storage/guncase/doublebarrel/roumain)
 	crate_name = "shotgun crate"
 	faction = /datum/faction/srm
 
@@ -625,12 +627,13 @@
 
 /datum/supply_pack/gun/resolution
 	name = "PD46 Resolution PDW Crate"
-	desc = "Contains a compact automatic personal defense weapon chambered in 4.6x30mm."
+	desc = "Contains a compact automatic personal defense weapon chambered in 4.6x30mm. For MW employee use only."
 	cost = 3500
 	contains = list(/obj/item/storage/guncase/wt550)
 	crate_name = "PDW crate"
-	faction_discount = 10
+	faction_discount = 0
 	faction = /datum/faction/warra
+	faction_locked = TRUE
 
 /datum/supply_pack/gun/bdm50
 	name = "BDM-50 'Akita' PDW Crate"
@@ -754,6 +757,7 @@
 	desc = "Contains an antiquated lever action rifle intended for hunting wildlife. Chambered in .38 rounds."
 	cost = 750
 	contains = list(/obj/item/storage/guncase/winchester)
+	contains_factional = list(/obj/item/storage/guncase/winchester/factory)
 	crate_name = "rifle crate"
 	faction = /datum/faction/srm
 	faction_discount = 20
@@ -763,6 +767,7 @@
 	desc = "Contains a powerful lever-action rifle for hunting larger wildlife. Chambered in .357."
 	cost = 2000
 	contains = list(/obj/item/storage/guncase/absolution)
+	contains_factional = list(/obj/item/storage/guncase/absolution/factory)
 	crate_name = "shotguns crate"
 	faction = /datum/faction/srm
 
@@ -771,6 +776,7 @@
 	desc = "Contains a devastating but unwieldy lever-action rifle for annihilating larger wildlife. Chambered in .45-70."
 	cost = 3000
 	contains = list(/obj/item/storage/guncase/pyre)
+	contains_factional = list(/obj/item/storage/guncase/pyre/factory)
 	crate_name = "rifle crate"
 	faction = /datum/faction/srm
 
@@ -779,6 +785,7 @@
 	desc = "Contains an expertly made bolt action rifle intended for hunting wildlife. Chambered in 8x50mmR rounds."
 	cost = 1250
 	contains = list(/obj/item/storage/guncase/illestren)
+	contains_factional = list(/obj/item/storage/guncase/illestren/factory)
 	crate_name = "rifle crate"
 	faction = /datum/faction/srm
 
@@ -787,6 +794,7 @@
 	desc = "Contains a single shot break action rifle to hunt wildlife that annoys you in particular. Chambered in devastating .45-70 rounds. Warranty voided if sawed off."
 	cost = 1000
 	contains = list(/obj/item/storage/guncase/beacon)
+	contains_factional = list(/obj/item/storage/guncase/beacon/factory)
 	crate_name = "rifle crate"
 	faction = /datum/faction/srm
 

@@ -249,13 +249,15 @@ NO_MAG_GUN_HELPER(automatic/pistol/challenger/inteq)
 	dry_fire_sound = 'sound/weapons/gun/revolver/dry_fire.ogg'
 
 	spread = 0
-	spread_unwielded = 12
+	spread_unwielded = 0
 	recoil = 1
 	recoil_unwielded = 3
 
 /obj/item/gun/ballistic/revolver/rhino/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/ammo_hud/revolver)
+
+EMPTY_GUN_HELPER(revolver/rhino)
 
 /obj/item/gun/ballistic/automatic/smg/expedition
 	name = "\improper Advantage SGL9 Expedition"
