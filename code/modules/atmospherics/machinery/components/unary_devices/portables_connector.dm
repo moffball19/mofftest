@@ -56,6 +56,9 @@
 	piping_layer = 4
 	icon_state = "connector_map-4"
 
+/obj/machinery/atmospherics/components/unary/portables_connector/layer5
+	piping_layer = 5
+
 /obj/machinery/atmospherics/components/unary/portables_connector/visible
 	hide = FALSE
 
@@ -74,3 +77,6 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4
 	piping_layer = 4
 	icon_state = "connector_map-4"
+
+/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer5
+	piping_layer = 5
