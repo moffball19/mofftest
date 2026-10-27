@@ -442,7 +442,7 @@
 	name = "Nail-class Boarding Vessel"
 	faction = /datum/faction/pgf
 	token_icon_state = "ship_tiny_generic"
-	prefix = "PGF"
+	prefix = "PGFMC"
 
 /datum/map_template/shuttle/subshuttles/tanto
 	file_name = "independent_tanto"
@@ -458,6 +458,18 @@
 /datum/map_template/shuttle/subshuttles/haymaker
 	file_name = "frontiersmen_haymaker"
 	name = "Haymaker-class Command Post"
+	prefix = "SV"
+
+/datum/map_template/shuttle/subshuttles/whollop
+	file_name = "frontiersmen_whollop"
+	name = "Whollop-class Smuggling Pod"
+	token_icon_state = "ship_tiny_generic"
+	prefix = "SV"
+
+/datum/map_template/shuttle/subshuttles/whollop_populated
+	file_name = "frontiersmen_whollop_populated"
+	name = "Whollop-class Smuggling Pod (Populated)"
+	token_icon_state = "ship_tiny_generic"
 	prefix = "SV"
 
 /datum/map_template/shuttle/subshuttles/skink
@@ -527,6 +539,12 @@
 /datum/map_template/shuttle/subshuttles/june
 	file_name = "independent_june"
 	name = "June-class Dropship"
+	token_icon_state = "ship_tiny_generic"
+	prefix = "SV"
+
+/datum/map_template/shuttle/subshuttles/starchaser
+	file_name = "independent_starchaser"
+	name = "Starchaser-class Delivery Shuttle"
 	token_icon_state = "ship_tiny_generic"
 	prefix = "SV"
 
