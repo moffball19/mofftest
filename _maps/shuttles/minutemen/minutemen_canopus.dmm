@@ -934,6 +934,24 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/space)
+"fg" = (
+/obj/effect/turf_decal/corner/opaque/white/half,
+/obj/effect/turf_decal/corner/opaque/white/half{
+	dir = 1
+	},
+/obj/structure/table/chem,
+/obj/structure/sink/chem{
+	pixel_y = -5;
+	pixel_x = -3;
+	name = "bathroom sink";
+	dir = 1
+	},
+/obj/structure/mirror{
+	pixel_y = -28
+	},
+/obj/structure/towel_bar/directional/west,
+/turf/open/floor/plasteel/white,
+/area/space)
 "fj" = (
 /obj/effect/turf_decal/corner/transparent/lime{
 	dir = 6
@@ -2853,6 +2871,14 @@
 	dir = 8
 	},
 /turf/open/floor/engine/hull,
+/area/space)
+"nV" = (
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/structure/curtain/thin{
+	dir = 1
+	},
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/mono/white,
 /area/space)
 "nX" = (
 /obj/item/reagent_containers/food/drinks/bottle/cream,
@@ -5649,6 +5675,15 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"Ag" = (
+/obj/effect/turf_decal/industrial/warning/green{
+	dir = 5
+	},
+/obj/effect/turf_decal/minutemen/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
 "An" = (
 /obj/structure/table/chem,
 /obj/effect/turf_decal/corner/transparent/blue/border{
@@ -5979,6 +6014,16 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
+/area/space)
+"BW" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white/end,
+/obj/structure/closet/crate/bin,
+/obj/structure/sign/warning/biohazard{
+	pixel_y = -14
+	},
+/obj/item/reagent_containers/syringe,
+/turf/open/floor/plasteel/white,
 /area/space)
 "Ca" = (
 /obj/item/reagent_containers/food/drinks/bottle/hcider,
@@ -6318,6 +6363,86 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
+"DR" = (
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/structure/table/chem,
+/obj/structure/closet/secure_closet/wall/directional/north{
+	icon_door = "med_wall";
+	name = "medical locker";
+	req_access_txt = "5"
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/storage/box/masks{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/storage/box/rxglasses{
+	pixel_x = -8
+	},
+/obj/item/storage/box/syringes{
+	pixel_x = -8;
+	pixel_y = -4
+	},
+/obj/item/storage/firstaid/medical{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/brute{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/radiation{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/healthanalyzer{
+	pixel_y = -10;
+	pixel_x = -4
+	},
+/obj/item/roller{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/roller{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/roller{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/roller{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/inhaler/salbutamol{
+	pixel_x = -4;
+	pixel_y = -8
+	},
+/obj/item/reagent_containers/inhaler_canister/salbutamol{
+	pixel_x = 5;
+	pixel_y = -10
+	},
+/obj/item/storage/pill_bottle/charcoal{
+	pixel_x = 13;
+	pixel_y = -6
+	},
+/obj/item/pinpointer/crew{
+	pixel_x = -4
+	},
+/obj/item/sensor_device{
+	pixel_x = 4
+	},
+/obj/item/bonesetter,
+/obj/item/wrench/medical{
+	pixel_y = 4
+	},
+/obj/item/defibrillator,
+/turf/open/floor/plasteel/mono/white,
+/area/space)
 "DV" = (
 /obj/effect/turf_decal/corner/opaque/white/half,
 /obj/effect/turf_decal/corner/opaque/white/half{
@@ -6472,6 +6597,15 @@
 	pixel_y = -6
 	},
 /turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"ET" = (
+/obj/effect/turf_decal/industrial/warning/green{
+	dir = 6
+	},
+/obj/effect/turf_decal/minutemen/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "EX" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden/layer1{
@@ -9614,6 +9748,17 @@
 /obj/item/reagent_containers/food/drinks/bottle/limejuice,
 /turf/open/space/basic,
 /area/space)
+"Uv" = (
+/obj/effect/turf_decal/corner/opaque/white/half,
+/obj/effect/turf_decal/corner/opaque/white/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/towel_bar/directional/south,
+/turf/open/floor/plasteel/white,
+/area/space)
 "UA" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden/layer1{
 	dir = 10
@@ -9965,6 +10110,13 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/space)
+"Xr" = (
+/obj/effect/turf_decal/industrial/warning/green{
+	dir = 9
+	},
+/obj/effect/turf_decal/minutemen/corner,
+/turf/open/floor/plasteel/tech,
+/area/space)
 "Xt" = (
 /obj/structure/table,
 /obj/effect/turf_decal/corner/transparent/blue/full,
@@ -10188,6 +10340,15 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
+/area/space)
+"YT" = (
+/obj/effect/turf_decal/industrial/warning/green{
+	dir = 10
+	},
+/obj/effect/turf_decal/minutemen/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "YU" = (
 /obj/item/reagent_containers/food/drinks/mead,
@@ -10696,8 +10857,8 @@ cO
 lS
 vY
 yR
-xW
-uY
+Xr
+YT
 vY
 Vu
 cO
@@ -10798,8 +10959,8 @@ nO
 vY
 vY
 yR
-xJ
-uH
+Ag
+ET
 vY
 vY
 nO
@@ -12948,7 +13109,7 @@ vY
 Ef
 Bv
 Gy
-Lt
+nV
 Dv
 ua
 Id
@@ -13154,7 +13315,7 @@ Ch
 ef
 xf
 xf
-yb
+BW
 vY
 rC
 rC
@@ -13455,7 +13616,7 @@ vY
 Ev
 vY
 vY
-RU
+DR
 Ax
 ED
 vY
@@ -14155,7 +14316,7 @@ KR
 vY
 Ra
 ZK
-cd
+fg
 vY
 HE
 XN
@@ -14172,7 +14333,7 @@ pJ
 TE
 vY
 gD
-iI
+Uv
 vY
 qC
 qC
